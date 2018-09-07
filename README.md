@@ -7,17 +7,18 @@ The game works with the **[original rules](https://en.wikipedia.org/wiki/Conway%
 
 # How to run
 The main function can be found in GameOfLife.java
+
 When running the game add the following parameters:
 
 `[width] [height] [infect-after] [max-generations] [seed]`
 
 Parameter | Description
 ---|---
-width | The width of the universe.
-height | The height of the universe.
-infect-after | The number of generations after which the infection stage will start.
-max-generations | The maximum number of generations that can be created. Including all phases of the game.
-seed | The initial state of the universe.
+width | The width of the universe (int).
+height | The height of the universe (int).
+infect-after | The number of generations after which the infection stage will start (int).
+max-generations | The maximum number of generations that can be created. Including all phases of the game (int).
+seed | The initial state of the universe (int[] where 1=Alive, 0=Dead).
 
 **Example:**
 
@@ -31,3 +32,6 @@ For the initial state of :
 001
 
 110
+
+
+After running the game will print the initial state and each generation in a seperate line to the stdout.
