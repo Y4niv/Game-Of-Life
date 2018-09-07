@@ -22,3 +22,12 @@ seed | The initial state of the universe.
 **Example:**
 
 `3 3 5 10 "101001110"`
+
+
+For the initial state of :
+
+101
+
+001
+
+110
