@@ -6,9 +6,9 @@ import java.util.Arrays;
  * @author Yaniv Levin
  */
 public class Universe {
-    Cell[][] cells;
-    boolean infected = false;
-    int width, height;
+    private Cell[][] cells;
+    private boolean infected = false;
+    private int width, height;
     
     /**
      * Initializes the universe
